@@ -1,0 +1,39 @@
+
+.big-header:before {
+    background: linear-gradient( 
+  54deg,rgb(120 169 161) 34%,hsla(0,34%,71%,.95));
+    height: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    content: "";
+    z-index: 0;
+  }
+  
+.menu{
+    position: fixed;
+    top: 0;
+    padding: 0;
+    height: 4rem;
+    width: 100%;
+    z-index: 100;
+    transition: all .5s;
+    /*background-color: white;*/
+    color: white;
+}
+.menu.active{
+    background-color: white;
+    box-shadow: 0 5px 8px 0 rgb(0 0 0 / 14%);
+    color: gray !important;
+}
+
+.openMenu{
+  background-color: white;
+  color: gray;
+  margin-right: 10px;
+  padding: 30px;
+  margin: 59px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,61 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html{
+  scroll-behavior: smooth;
+}
+dd{
+  padding-left: 6rem;
+  margin-bottom: 1rem !important;
+  margin-left: 0;
+}
+dt{
+  float: left;
+}
+
+
+footer{
+  background: linear-gradient( 
+    54deg,rgb(120 169 161) 34%,hsla(0,34%,71%,.95));
+    
+}
+footer input, footer textarea{
+  background-color: transparent;
+}
+
+
+
+
+#resume-title,
+#hello-title,
+#projects-title,
+#footer-title {
+    visibility: hidden;
+    font-family: monospace;
+    overflow: hidden; 
+    /*border-right: .15em solid rgb(107 114 128 / var(--tw-text-opacity)); */
+    white-space: nowrap; 
+    /* margin: 0 auto; */
+    letter-spacing: .05em; 
+    
+  }
+
+  #resume-title.active,
+  #hello-title.active,
+  #projects-title.active,
+  #footer-title.active{
+    visibility: visible;
+    animation: 
+    typing 1.5s steps(30,end)
+  }
+  
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 4.7em }
+  }
+  
+ 

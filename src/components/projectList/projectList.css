@@ -1,0 +1,64 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project{
+    border:1px solid #bbb;
+    margin:20px 5px;
+   /* width: 32%; */
+    height: 700px;
+    
+}
+
+.tab{
+    height: 15px;
+    background-color: #bbb;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+.tab .circle{
+    background-color: #fff;
+    padding: 1px;
+    border: 1px solid #fff;
+    margin-right: 3px;
+    border-radius: 50%;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+   
+}
+
+
+.projectImg{
+    width: 100%;
+   overflow: hidden;
+   height: 60%;
+
+}
+.projectImg img{
+    width: 100%;
+    transition: all 10s ease;
+}
+.projectImg:hover >  img {
+    transform: translateY(-70%);
+}
+
+.github{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+@media (min-width: 1024px) {
+    .project{
+         width: 32%; 
+    }
+ }
