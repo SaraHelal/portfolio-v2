@@ -92,7 +92,7 @@ import Img11 from '../../src/img/portfolio.png'
     {
         'id':6,
         'title': 'Covid Tracker',
-        'desc' : 'Tracking App For Covid-19 with Vue.js & tailwindcss',
+        'desc' : 'Tracking App For Covid-19 with Vue.js & tailwindcss & REST api',
         'imgUrl': Img6,
         'skills': ['html','css','javascript','vue.js','tailwindcss','REST API','json server'],
         'githubUrl' : 'https://github.com/SaraHelal/vue-covid-tracker.git'
