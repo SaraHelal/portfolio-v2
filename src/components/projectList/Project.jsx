@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faGithubAlt, faGithubSquare, faGitSquare  } from "@fortawesome/free-brands-svg-icons"
+import { faGithub} from "@fortawesome/free-brands-svg-icons"
 
 
 const Project = ({title,desc,imgUrl,skills , githubUrl}) => {
@@ -15,7 +15,7 @@ const Project = ({title,desc,imgUrl,skills , githubUrl}) => {
         <div className='circle'></div>
     </div>
     <div className='project-details'>
-        <div className="projectImg h-1/3">
+        <div className="projectImg h-1/3 bg-gray-200">
             <img src={imgUrl} alt="project-img" />
 
         </div>
