@@ -1,7 +1,7 @@
 import Img1 from '../../src/img/p1.png'
 import Img2 from '../../src/img/p2.png'
 import Img3 from '../../src/img/p3.jpg'
-import Img4 from '../../src/img/p4.png'
+import Img4 from '../../src/img/admin-dash.png'
 import Img5 from '../../src/img/p5.png'
 import Img6 from '../../src/img/p6.png'
 import Img7 from '../../src/img/p7.png'
@@ -9,6 +9,7 @@ import Img8 from '../../src/img/booking.png'
 /*import Img9 from '../../src/img/milionaire.png'*/
 import Img10 from '../../src/img/tenzies.png'
 import Img11 from '../../src/img/portfolio.png'
+
 
  const projectData =[
     {
@@ -98,7 +99,17 @@ import Img11 from '../../src/img/portfolio.png'
         'githubUrl' : 'https://github.com/SaraHelal/vue-covid-tracker.git'
         
 
-    }
+    },
+    {
+        'id':12,
+        'title': 'Admin Dashboard',
+        'desc' : 'Admin Dashboard with React',
+        'imgUrl': Img4,
+        'skills': ['html','css','react', 'mui'],
+        'githubUrl' : 'https://github.com/SaraHelal/admin-dash.git'
+
+
+    },
     
    /* {
         'id':9,
