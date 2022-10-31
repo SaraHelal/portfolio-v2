@@ -24,6 +24,7 @@ function Projects() {
         imgUrl={p.imgUrl}
         skills={p.skills}
         githubUrl = {p.githubUrl}
+        animation =  {p.animation}
         
      />)
   return (

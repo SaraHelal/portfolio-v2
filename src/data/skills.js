@@ -3,6 +3,6 @@
     'css3', 'github',
     'bootstarp' , 'tailwindcss',
     'React' , 'Vue',
-    'php' , 'mysql'
+    'php' , 'mysql','sass', 'laravel', 'asp.net','python'
 ]
 export default skills

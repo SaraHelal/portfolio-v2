@@ -18,7 +18,8 @@ import Img11 from '../../src/img/portfolio.png'
         'desc' : 'this is my potfolio coded with React js',
         'imgUrl': Img11,
         'skills': ['html','css','react'],
-        'githubUrl' : 'https://github.com/SaraHelal/portfolio-v2.git'
+        'githubUrl' : 'https://github.com/SaraHelal/portfolio-v2.git',
+        'animation': 'animate'
 
 
     },
@@ -28,7 +29,8 @@ import Img11 from '../../src/img/portfolio.png'
         'desc' : 'Booking website',
         'imgUrl': Img8,
         'skills': ['html','css','react', 'react-calender'],
-        'githubUrl' : 'https://github.com/SaraHelal/booking.git'
+        'githubUrl' : 'https://github.com/SaraHelal/booking.git',
+        'animation': 'animate'
 
 
     },
@@ -38,7 +40,8 @@ import Img11 from '../../src/img/portfolio.png'
         'desc' : 'Building dices game which completed when we hold all dices with the same number',
         'imgUrl': Img10,
         'skills': ['html','css','react'],
-        'githubUrl' : 'https://github.com/SaraHelal/tenzies-game.git'
+        'githubUrl' : 'https://github.com/SaraHelal/tenzies-game.git',
+        'animation': 'noAnimate'
 
 
     },
@@ -49,7 +52,8 @@ import Img11 from '../../src/img/portfolio.png'
         'imgUrl': Img1,
         'skills': 
             ['html5','css3','jquery','bootstrap','json','php','mysql'],
-        'githubUrl' : 'https://github.com/SaraHelal/kidstore.git'
+        'githubUrl' : 'https://github.com/SaraHelal/kidstore.git',
+        'animation': 'animate'
     },
     {
         'id':2,
@@ -57,7 +61,8 @@ import Img11 from '../../src/img/portfolio.png'
         'desc' : 'E-commerce Landing Page with vue js & php',
         'imgUrl': Img2,
         'skills': ['html','css','jquery','bootstrap','php', 'vue js'],
-        'githubUrl' : 'https://github.com/SaraHelal/shoppingSite.git'
+        'githubUrl' : 'https://github.com/SaraHelal/shoppingSite.git',
+        'animation': 'animate'
 
 
     },
@@ -67,37 +72,9 @@ import Img11 from '../../src/img/portfolio.png'
         'desc' : 'Real reviewing website clone with vue js',
         'imgUrl': Img7,
         'skills': ['html','css','javascript','vue.js','tailwindcss'],
-        'githubUrl' : 'https://github.com/SaraHelal/aly-app'
+        'githubUrl' : 'https://github.com/SaraHelal/aly-app',
+        'animation': 'animate'
 
-
-    },
-    {
-        'id':3,
-        'title': 'Pizza Restaurant Site',
-        'desc' : 'Restaurant Landing Website',
-        'imgUrl': Img3,
-        'skills': ['html','css','javascript'],
-        'githubUrl' : '#'
-
-
-    },
-    {
-        'id':5,
-        'title': 'TodoList',
-        'desc' : 'Todolist with Vue.js ',
-        'imgUrl': Img5,
-        'skills': ['html','css','javascript','vue.js'],
-        'githubUrl' : '#'
-
-    },
-    {
-        'id':6,
-        'title': 'Covid Tracker',
-        'desc' : 'Tracking App For Covid-19 with Vue.js & tailwindcss & REST api',
-        'imgUrl': Img6,
-        'skills': ['html','css','javascript','vue.js','tailwindcss','REST API','json server'],
-        'githubUrl' : 'https://github.com/SaraHelal/vue-covid-tracker.git'
-        
 
     },
     {
@@ -106,7 +83,38 @@ import Img11 from '../../src/img/portfolio.png'
         'desc' : 'Admin Dashboard with React',
         'imgUrl': Img4,
         'skills': ['html','css','react', 'mui'],
-        'githubUrl' : 'https://github.com/SaraHelal/admin-dash.git'
+        'githubUrl' : 'https://github.com/SaraHelal/admin-dash.git',
+        'animation': 'noAnimate'
+
+    },
+    {
+        'id':5,
+        'title': 'TodoList',
+        'desc' : 'Todolist with Vue.js ',
+        'imgUrl': Img5,
+        'skills': ['html','css','javascript','vue.js'],
+        'githubUrl' : '#',
+        'animation': 'noAnimate'
+
+    },
+    {
+        'id':6,
+        'title': 'Covid Tracker',
+        'desc' : 'Tracking App For Covid-19 with Vue.js & tailwindcss & REST api',
+        'imgUrl': Img6,
+        'skills': ['html','css','javascript','vue.js','tailwindcss','REST API','json server'],
+        'githubUrl' : 'https://github.com/SaraHelal/vue-covid-tracker.git',
+        'animation': 'noAnimate'
+
+    },
+    {
+        'id':3,
+        'title': 'Pizza Restaurant Site',
+        'desc' : 'Restaurant Landing Website',
+        'imgUrl': Img3,
+        'skills': ['html','css','javascript'],
+        'githubUrl' : '#',
+        'animation': 'animate'
 
 
     },

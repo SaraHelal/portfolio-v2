@@ -1,7 +1,7 @@
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useRef, useState } from 'react'
-import pdf from '../assets/cv.pdf'
+import pdf from '../assets/frontend-cv.pdf'
  
 
 const Intro = () => {

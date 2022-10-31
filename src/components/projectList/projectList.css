@@ -48,8 +48,8 @@
     width: 100%;
     transition: all 10s ease;
 }
-.projectImg:hover >  img {
-    transform: translateY(-70%);
+.projectImg.animate:hover >  img {
+    transform: translateY(-50%);
 }
 
 .github{
