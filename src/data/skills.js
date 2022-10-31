@@ -6,3 +6,5 @@
     'php' , 'mysql','sass', 'laravel', 'asp.net','python'
 ]
 export default skills
+
+
